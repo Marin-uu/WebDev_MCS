@@ -1,0 +1,77 @@
+@import url(reset.css);
+.heading {
+	width: 600px;
+	height: 80px;
+	background-color: pink;
+}
+.headingText {
+	font-family: 'Monoton', cursive;
+	font-size: 52px;
+	font-weight: regular;
+	letter-spacing: 7px;
+	text-align: center; 
+	line-height: 80px;
+	background: pink;
+    color: black;
+    text-shadow: 2px 2px oldlace, 4px 4px black;
+}
+.sectionOne {
+	width: 600px;
+	height: 400px;
+    background: linear-gradient(90deg, rgba(58, 50, 48, .3),rgba(253, 241, 210, .2), rgba(58, 50, 48, .3)), url(../img/merylin.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sectionTwo {
+	width: 600px;
+	height: 80px;
+	background-color: pink;
+}
+.links {
+	font-family: 'Fira Code', monospace;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left; 
+	line-height: 80px;
+}
+.mainSection {
+	text-align: left;
+	width: 600px;
+	height: 80px;
+	line-height: 80px;
+	font-family: 'Fira Code', monospace;
+	font-size: 23px;
+	font-weight: bold;
+}
+.paragraphTextOne {
+	width: 600px;
+	height: 170px;
+	font-family: 'Fira Code', monospace;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.3px;
+	line-height: 1.1;
+
+}
+.paragraphTextTwo {
+	width: 600px;
+	height: 250px;
+	font-family: 'Fira Code', monospace;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.3px;
+	line-height: 1.1;
+	}
+	.footer{
+	width: 600px;
+	height: 70px;
+	background-color: pink;
+}
+	.footerText {
+	font-family: 'Fira Code', monospace;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left; 
+	line-height: 70px;
+	}
