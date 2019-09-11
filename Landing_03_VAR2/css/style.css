@@ -5,9 +5,8 @@
 	background-color: pink;
 }
 .headingText {
-	font-family: 'Monoton', cursive;
+	font-family: 'Monoton';
 	font-size: 52px;
-	font-weight: regular;
 	letter-spacing: 7px;
 	text-align: center; 
 	line-height: 80px;
