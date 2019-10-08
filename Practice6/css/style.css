@@ -1,0 +1,225 @@
+@import url(reset.css);
+.page {
+  font-family: sans-serif;
+  width: 600px;
+  height: 1000px;
+  margin: auto;
+}
+a {
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header {
+  width: 600px;
+  height: 50px;
+  position: fixed;
+  background-color: tomato;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+.header-container {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  font-size: 22px;
+  width: 200px;
+  flex-grow: 1;
+}
+.menu {
+  font-size: 16px;
+  display: flex;
+}
+
+.menu li {
+  display: inline-block;
+  margin: auto;
+}
+
+.imageSection {
+  width: 600px;
+  height: 250px;
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.mainImage {
+ width: 600px;
+ height: 250px;
+ background-image: url(../img/sephora.png);
+ background-size: cover;
+ margin: auto;
+}
+.mainText{
+ text-orientation: upright;
+ font-family: 'Caveat', cursive;
+ font-size: 42px;
+ text-align: right;
+ vertical-align: top;
+ letter-spacing: 1.1px;
+  line-height: 1.3; 
+ text-align: right;
+ align-self: center;
+ margin: 20px;
+}
+.sectionTwo {
+  height: 80px;
+  width: 580px;
+  background-color: white;
+  display: flex;
+  border: 2px solid silver;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.3;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  padding: 10px;
+  
+}
+.flexContainer {
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  background-color: white;
+  display: flex; 
+  flex-direction: row;
+}
+.flexItemOne {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+ } 
+
+.imageItemOne {
+  width: 170px;
+  height: 170px;
+  background-image: url(../img/lipstick4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: flex-end; 
+}
+
+.itemOneText {
+ font-family: 'Fira Code', monospace;
+ font-size: 12px;
+ text-align: center;
+
+}
+.flexItemTwo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.imageItemTwo {
+  width: 170px;
+  height: 170px;
+  background-image: url(../img/lip1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: flex-end; 
+}
+
+.itemTwoText {
+ font-family: 'Fira Code', monospace;
+ font-size: 12px;
+ text-align: center;
+}
+.flexItemThree {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+ } 
+
+.imageItemThree {
+  width: 170px;
+  height: 170px;
+  background-image: url(../img/lipstick6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: flex-end; 
+}
+
+.itemThreeText {
+ font-family: 'Fira Code', monospace;
+ font-size: 12px;
+ text-align: center;
+}
+.sectionThree {
+  height: 180px;
+  width: 580px;
+  background-color: white;
+  display: flex;
+  border: 2px solid silver;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.image {
+ width: 250px;
+ height: 180px;
+ background-image: url(../img/lipstick5.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: auto;
+ align-self: center; 
+}
+.textSectionThree {
+ height: 100px;
+ width: 100px;
+ flex-grow: 1;
+ text-align: left;
+ font-family: 'Fira Code', monospace;
+ font-size: 14px;
+ line-height: 1.3;
+ letter-spacing: 0.2px;
+ padding: 10px;
+ margin: auto;
+}
+.footer {
+  width: 600px;
+  height: 50px;
+  background-color: tomato;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+.footerText {
+  font-size: 18px;
+  width: 200px;
+  flex-grow: 1;
+}
+.logoFooterText {
+  font-size: 18px;
+  width: 200px;
+  align-content: flex-end;
+  text-align: right;
+}
