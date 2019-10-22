@@ -1,0 +1,109 @@
+@import url(reset.css);
+
+.header {
+ background: whitesmoke;
+ display: flex;
+ height: 60px;
+}
+
+.headerText {
+  margin: auto;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+}
+.columns {
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: white; 
+}
+.column {
+  width: calc((100% - 60px)/3);
+  height: calc((100% - 30px)/3);
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+}
+.imageOne {
+  background-image: url(../img/img9.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  padding-bottom: 100%;
+}
+.imageTwo {
+  background-image: url(../img/img8.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  padding-bottom: 100%;
+}
+
+.imageThree {
+  background-image: url(../img/img10.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  padding-bottom: 100%;
+}
+
+.cocktailName {
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  text-align: center;
+}
+li {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Andika', sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+h3 {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  text-align: left;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.description {
+  padding: 5px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-family: 'Andika', sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+.footer {
+  background: whitesmoke;
+  display: flex;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+.footerText {
+  font-size: 18px;
+  flex-grow: 1;
+  font-family: 'Andika', sans-serif;
+  font-weight: bold;
+}
+.logoFooterText {
+  font-size: 18px;
+  font-family: 'Andika', sans-serif;
+  font-weight: bold;
+}
