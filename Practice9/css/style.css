@@ -1,5 +1,12 @@
 @import url(reset.css);
-
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 .header {
  width: 100%;
@@ -111,5 +118,12 @@
   height: calc((100% - 40px)/2);
   align-self: center;
   margin: auto;
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  flex: 0 0 auto;
 }
 }
