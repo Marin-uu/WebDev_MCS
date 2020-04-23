@@ -1,4 +1,12 @@
 @import url(reset.css);
-body {
-	background: red;
+.outer {
+	width: 600px;
+	height: 500px;
+    border: 5px solid red;
+}
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+
 }

@@ -217,7 +217,7 @@ a {
   width: 200px;
   flex-grow: 1;
 }
-.logoFooter {
+.logoFooterText {
   font-size: 18px;
   width: 200px;
   align-content: flex-end;

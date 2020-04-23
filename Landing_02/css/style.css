@@ -1,0 +1,74 @@
+@import url(reset.css);
+.heading {
+	width: 600px;
+	height: 80px;
+	background-color: peachpuff;
+}
+.headingText {
+	font-family: 'Jura', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center; 
+	line-height: 80px;
+}
+.sectionOne {
+	width: 600px;
+	height: 250px;
+	background-color: mintcream;
+	background-image: url(../img/egp.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sectionTwo {
+	width: 600px;
+	height: 80px;
+	background-color: peachpuff;
+}
+.links {
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left; 
+	line-height: 80px;
+}
+.mainSection {
+	text-align: left;
+	width: 600px;
+	height: 80px;
+	line-height: 80px;
+	font-family: 'Jura', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+.paragraphTextOne {
+	width: 600px;
+	height: 150px;
+	font-family: 'Forum', cursive;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.3px;
+	line-height: 1.1;
+
+}
+.paragraphTextTwo {
+	width: 600px;
+	height: 150px;
+	font-family: 'Forum', cursive;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.3px;
+	line-height: 1.1;
+	}
+	.footer{
+	width: 600px;
+	height: 70px;
+	background-color: peachpuff;
+}
+	.footerText {
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left; 
+	line-height: 70px;
+	}
